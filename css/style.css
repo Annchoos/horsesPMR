@@ -152,7 +152,7 @@ header nav a:hover {
   opacity: 0;
   height: 10px;
   background: #2d2f31;
-  transition: all 550ms ease-in-out;
+  transition: all 350ms ease-in-out;
 }
 
 .portfolio-item:hover .description-container {
@@ -482,9 +482,7 @@ height: fit-content;*/
 }
 
 .single-achievement {
- 
   padding: 15px 50px;
- 
 }
 
 .single-achievement h3 {
@@ -500,7 +498,7 @@ height: fit-content;*/
   margin-top: 0px;
 }
 .find-on-map {
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 
 .find-on-map h1 {
@@ -513,9 +511,6 @@ height: fit-content;*/
 .map {
   margin: 50px 0;
 }
-
-
-
 
 @media screen and (max-width: 992px) {
   .row-item {
@@ -617,8 +612,8 @@ height: fit-content;*/
   .content-left {
     margin-bottom: 25px;
   }
-  
-  .achievement-container{
+
+  .achievement-container {
     max-width: 450px;
   }
   .achievement-row {
@@ -631,7 +626,7 @@ height: fit-content;*/
   .single-achievement {
     margin: 20px 0;
   }
-  .counter{
+  .counter {
     font-size: 32px;
   }
   .testimonials {
@@ -644,7 +639,9 @@ height: fit-content;*/
   }
 
   .testimonials-card {
-    width: calc(50% - 15px); /* Рассчитываем ширину карточки, учитывая отступ между ними */
+    width: calc(
+      50% - 15px
+    ); /* Рассчитываем ширину карточки, учитывая отступ между ними */
     max-width: none; /* Убираем ограничение максимальной ширины */
     margin-right: 15px; /* Восстанавливаем отступ между карточками */
   }
@@ -672,10 +669,10 @@ height: fit-content;*/
     margin-right: 20px; 
     margin-bottom: 10px; 
   }*/
-  .testimonials-container{
+  .testimonials-container {
     max-width: 550px;
   }
-  .testimonials-card{
+  .testimonials-card {
     width: 250px;
   }
 }
@@ -699,7 +696,7 @@ height: fit-content;*/
     overflow: hidden;
     white-space: nowrap;
   }
-  
+
   .testimonials-inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -708,7 +705,7 @@ height: fit-content;*/
     -webkit-overflow-scrolling: touch; /* Добавлено свойство для плавной прокрутки на устройствах с iOS */
     scroll-behavior: smooth; /* Добавлено свойство для плавной прокрутки на поддерживаемых браузерах */
   }
-  
+
   .testimonials-card {
     flex: 0 0 auto;
     width: 100%;
@@ -716,8 +713,8 @@ height: fit-content;*/
     margin-right: 15px;
     white-space: normal; /* Обеспечивает перенос слов внутри карточек */
   }
-  
-  .testimonials-controls{
+
+  .testimonials-controls {
     display: none;
   }
 }
